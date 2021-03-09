@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import {useTypedSelector} from '../hooks/useTypedSelector';
-import {fetchUsers} from '../store/action-creators/user';
 import {useActions} from '../hooks/userActions';
 
 const UserList: React.FC = () => {
